@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persoane>
+	<persoana id="1">
+		<nume>Barbara</nume>
+		<prenume>Palvin</prenume>
+		<varsta>28</varsta>
+		<telefon>0761835267</telefon>
+		<nationalitate>Hungarian</nationalitate>
+		<studii>Highschool diploma</studii>
+		<adresa>
+			<strada>Carpati</strada>
+			<numar>3</numar>
+			<localitate>Bucharest</localitate>
+			<judet>Bucharest</judet>
+			<tara>Romania</tara>
+		</adresa>
+	</persoana>
+
+	<persoana id="2">
+		<nume>Lungu</nume>
+		<prenume>Maria</prenume>
+		<varsta>68</varsta>
+		<telefon>0761598361</telefon>
+		<nationalitate>Romanian</nationalitate>
+		<studii>Master's degree</studii>
+		<adresa>
+			<strada>Ipsilante</strada>
+			<numar>4</numar>
+			<localitate>Iasi</localitate>
+			<judet>Iasi</judet>
+			<tara>Romania</tara>
+		</adresa>
+	</persoana>
+
+	<persoana id="3">
+		<nume>Ifrim</nume>
+		<prenume>Marina</prenume>
+		<varsta>22</varsta>
+		<telefon>0758795101</telefon>
+		<nationalitate>Romanian</nationalitate>
+		<studii>Highschool diploma</studii>
+		<adresa>
+			<strada>Bradului</strada>
+			<numar>678</numar>
+			<localitate>Targu Frumos</localitate>
+			<judet>Iasi</judet>
+			<tara>Romania</tara>
+		</adresa>
+	</persoana>
+
+	<persoana id="4">
+		<nume>Ababei</nume>
+		<prenume>Dragos</prenume>
+		<varsta>50</varsta>
+		<telefon>0737677021</telefon>
+		<nationalitate>Romanian</nationalitate>
+		<studii>Bachelor's degree</studii>
+		<adresa>
+			<strada>Fantanelor</strada>
+			<numar>45</numar>
+			<localitate>Gheraiesti</localitate>
+			<judet>Neamt</judet>
+			<tara>Romania</tara>
+		</adresa>
+	</persoana>
+
+
+	<persoana id="5">
+		<nume>Ifrim</nume>
+		<prenume>Teodora</prenume>
+		<varsta>28</varsta>
+		<telefon>0758768202</telefon>
+		<nationalitate>Romanian</nationalitate>
+		<studii>Master's degree</studii>
+		<adresa>
+			<strada>Florilor</strada>
+			<numar>660</numar>
+			<localitate>Vaslui</localitate>
+			<judet>Iasi</judet>
+			<tara>Romania</tara>
+		</adresa>
+	</persoana>
+
+
+	<persoana id="6">
+		<nume>Maftei</nume>
+		<prenume>Denisa</prenume>
+		<varsta>25</varsta>
+		<telefon>0757682021</telefon>
+		<nationalitate>Romanian</nationalitate>
+		<studii>Highschool diploma</studii>
+		<adresa>
+			<strada>Crinilor</strada>
+			<numar>200</numar>
+			<localitate>Valea Lupului</localitate>
+			<judet>Iasi</judet>
+			<tara>Romania</tara>
+		</adresa>
+	</persoana>
+
+
+	<persoana id="7">
+		<nume>Iancu</nume>
+		<prenume>Ioana</prenume>
+		<varsta>26</varsta>
+		<telefon>0758778202</telefon>
+		<nationalitate>Romanian</nationalitate>
+		<studii>Bachelor's degree</studii>
+		<adresa>
+			<strada>Tacerii</strada>
+			<numar>778</numar>
+			<localitate>Contesti</localitate>
+			<judet>Iasi</judet>
+			<tara>Romania</tara>
+		</adresa>
+	</persoana>
+
+
+	<persoana id="8">
+		<nume>Davidoaia</nume>
+		<prenume>Cristina</prenume>
+		<varsta>32</varsta>
+		<telefon>0750068202</telefon>
+		<nationalitate>Romanian</nationalitate>
+		<studii>Master's degree</studii>
+		<adresa>
+			<strada>Stefan Cel Mare</strada>
+			<numar>112</numar>
+			<localitate>Pascani</localitate>
+			<judet>Iasi</judet>
+			<tara>Romania</tara>
+		</adresa>
+	</persoana>
+
+
+	<persoana id="9">
+		<nume>Sandu</nume>
+		<prenume>Adina</prenume>
+		<varsta>23</varsta>
+		<telefon>0755582021</telefon>
+		<nationalitate>Romanian</nationalitate>
+		<studii>Bachelor's degree</studii>
+		<adresa>
+			<strada>Ion Creanga</strada>
+			<numar>134</numar>
+			<localitate>Cozmesti</localitate>
+			<judet>Iasi</judet>
+			<tara>Romania</tara>
+		</adresa>
+	</persoana>
+
+	<persoana id="10">
+		<nume>Nemtanu</nume>
+		<prenume>Ana</prenume>
+		<varsta>24</varsta>
+		<telefon>0758788021</telefon>
+		<nationalitate>Romanian</nationalitate>
+		<studii>Bachelor's degree</studii>
+		<adresa>
+			<strada>Izvoarelor</strada>
+			<numar>400</numar>
+			<localitate>Miroslava</localitate>
+			<judet>Iasi</judet>
+			<tara>Romania</tara>
+		</adresa>
+	</persoana>
+
+</persoane>

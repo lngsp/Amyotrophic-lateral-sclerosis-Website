@@ -1,0 +1,68 @@
+
+            <h2>If you are experiencing ALS, register and help us with your illness survey!</h1>
+
+            <form>
+                <fieldset><br/>
+                    <legend>General information:</legend>
+                    &emsp;&emsp;<label for="first_name">First name:</label>
+                    &emsp;&emsp;<input type="text" id="first_name" name="first_name"><br><br>
+                    &emsp;&emsp;<label for="second_name">Second name:</label>
+                    &emsp;&emsp;<input type="text" id="second_name" name="second_name"><br><br>
+                    &emsp;&emsp;<label for="email">Email:</label>
+                    &emsp;&emsp;&emsp;&emsp;<input type="email" id="email" name="email"><br><br>
+                    &emsp;&emsp;<label for="phone">Phone:</label>
+                    &emsp;&emsp;<input type="tel" id="phone" name="phone"><br><br>
+                </fieldset>
+                <br/>
+                <fieldset>    
+                    <legend>Personal information:</legend>
+                    <br/>
+                    &emsp;&emsp;Gender:
+                    <select id="gender" name="gender">
+                        <option value="f">Female</option>
+                        <option value="m">Male</option>
+                        <option value="u">Unknow</option>
+                    </select>
+                    <br/>
+                    <br/>
+                    &emsp;&emsp;<label for="birthday">Birthday:</label>
+                    &emsp;&emsp;<input type="date" id="birthday" name="birthday"><br/><br/>
+                    &emsp;&emsp;<label for="year">How long have you been discovering the disease?</label>
+                    &emsp;&emsp;<input type="number" id="year" name="year"><br/><br/>
+                    &emsp;&emsp;<label for="affect">How bad this desease affect you?</label>
+                    &emsp;&emsp;<input type="range" id="affect" name="affect"><br/><br/>
+                    &emsp;&emsp;<label for="affect">How bad this desease affect the people around you (parents, husband/wife, childrens, friends)?</label>
+                    &emsp;&emsp;<input type="range" id="affect" name="affect"><br/><br/>
+                    &emsp;&emsp;The first symptoms you have:
+                    <form>
+                        <input list="symptoms" name="symptoms">
+                        <datalist id="symptoms">
+                            <option value="Muscle weakness">
+                            <option value="Atrophy">
+                            <option value="Muscle spasms">
+                            <option value="Language dysfunction">
+                            <option value="Executive dysfunction">
+                            <option value="Troubles with verbal memory">
+                        </datalist>
+                    </form>
+                    <br/><br/>
+                    &emsp;&emsp;<label for="color">Favorite color:</label>
+                    &emsp;&emsp;<input type="color" id="color" name="color"><br/><br/>
+                    &emsp;&emsp;<label for="adress">Your website where we can find you:</label>
+                    &emsp;&emsp;<input type="url" id="adresa" name="adresa"><br/><br/>
+                    &emsp;&emsp;<label for="describe">Describe how you discovered the disease and what it was like to live with it:</label><br/>
+                    &emsp;&emsp;<textarea name="describe"></textarea>
+                    <br/><br/>
+                </fieldset>
+                <br/><br/>
+                <fieldset>
+                    <legend>Current day:</legend>
+                    &emsp;&emsp;<label for="day">The day you filled out the form:</label>
+                    &emsp;&emsp;<input type="date" id="day" name="day"><br/><br/> 
+                    &emsp;&emsp;<label for="time">The time you filled out the form:</label>
+                    &emsp;&emsp;<input type="time" id="time" name="time"><br/><br/>
+                </fieldset>
+                <br/><br/>
+                &emsp;&emsp; &emsp;&emsp;&emsp;&emsp;<button type="button" id="btn">Sign up!</button>
+                <br/><br/><br/><br/>
+            </form>

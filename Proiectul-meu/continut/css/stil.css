@@ -1,0 +1,119 @@
+
+header img {
+    height: 80px;
+}
+
+h1 {
+    color: rgb(18, 90, 36);
+    text-shadow: 2px 2px 4px #83b17d;
+    font-family: "Times New Roman", Times, serif;
+    animation-name: h1_animation;
+    animation-duration: 4s; ;
+}
+
+@keyframes h1_animation {   /*animatie*/
+    from {color: rgb(47, 234, 47);}
+    to {color: rgb(18, 90, 36);}
+  }
+
+h2{
+    color: rgb(51, 68, 12);
+    font-family: "Times New Roman", Times, serif;
+}
+
+nav{
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+}
+
+body {
+    height: auto;
+    background-image: url('https://i.pinimg.com/originals/be/2a/94/be2a940c4ac312bf5abc0aa9677749de.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 15px;
+    padding: 15px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+main {
+    margin-top: 20px;
+    color: rgb(13, 2, 54);
+    font-family: "Times New Roman", Times, serif;
+}
+
+header {
+    background-color: white;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    align-items: center;
+}
+
+header * {
+    display: inline;
+}
+
+header li a {
+    color: black;
+    text-decoration: none;
+}
+
+#logo:hover{
+    transform: rotateY(200deg);
+}
+
+#bara_meniu{
+    position: relative;
+    color: rgb(18, 82, 31);
+    background-color: #caf0c5;
+    border-radius: 22px;
+    font-size: 14px;
+    text-align: center;
+}
+
+#bara_meniu:hover{
+    background: rgb(18, 82, 31);
+    color:rgb(15, 238, 48);
+    height: 35px;
+}
+
+*:link{
+    color:rgb(211, 124, 62);
+}
+
+*:visited{
+    color: rgb(64, 90, 12);
+}
+
+canvas#myCanvas{
+    border-radius: 25px;
+    border:1px solid #000000;
+    background: rgb(255, 255, 255);
+}
+
+#btn{
+    color: rgb(18, 82, 31);
+    background-color: #caf0c5;
+    border-radius: 22px;
+    font-size: 14px;
+    text-align: center;
+}
+
+#btn:hover{
+    background: rgb(18, 82, 31);
+    color:rgb(15, 238, 48);
+}
+
+#videos{
+    position: relative;
+    width: 100%;
+    top: 0;
+}
+
+#shooping_items{
+    width: 200px;
+    height: auto;
+}

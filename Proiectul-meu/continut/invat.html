@@ -1,0 +1,51 @@
+
+<h2>You page of having fun!</h2>
+            <aside>
+                <section>
+                    <h1>Informative section</h1>
+                    <p id="language">
+                        <script>getLanguage();</script>
+                    </p>
+                    <p id="DateTime">
+                        <script>setInterval(getTime, 1000);</script>
+                    </p>
+                    <p id="Location">
+                        <script>myLocation();</script>
+                    </p>
+                    <p id="NavigatorName">
+                        <script>myNavigatorName();</script>
+                    </p>
+                    <p id="NavigatorVersion">
+                        <script>myNavigatorVersion();</script>
+                    </p>
+                    <script>getTime();</script>
+                </section>
+
+                <section id="sec2">
+                    <h1>Canvas section</h1>
+                    <canvas id="myCanvas" onclick="clickPeCanvas(event)" width="700px" height="400px">Your browser does not
+                        support the HTML5 canvas tag.</canvas></br>
+                        <br /><br />
+                        Culoarea de contur: <input type="color" onchange="seteazaCuloareContur(this.value);" />
+                        Culoarea de umplere: <input type="color" onchange="seteazaCuloareUmplere(this.value);" />
+                        </select>
+                </section>
+
+                <section id="sec3">
+                    <h1>Table section</h1>
+                    
+                    <INPUT type="button" value="Add Row" onclick="addRow('dataTable')" />
+
+                    <INPUT type="button" value="Delete Row" onclick="deleteRow('dataTable')" />
+                
+                    <TABLE id="dataTable" width="350px" border="1">
+                        <TR>
+                            <TD><INPUT type="checkbox" name="chk"/></TD>
+                            <TD>First name: <INPUT type="text" name="txt"/></TD>
+                            <TD>Second name: <INPUT type="text" name="txt"/></TD>
+                            <TD>Age: <INPUT type="text" name="txt"/></TD>
+                        </TR>
+                    </TABLE>
+
+                </section>
+            </aside>
